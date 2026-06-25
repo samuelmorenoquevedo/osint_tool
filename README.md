@@ -79,7 +79,7 @@ export HIBP_API_KEY="tu_api_key_aqui"
 ### 2. Estructura de directorios
 ```bash
 mkdir -p data logs reports cache
-
+```
 ### 3. Verificar configuración
 ```bash
 python -c "from config.settings import validate_config; print(validate_config())"
