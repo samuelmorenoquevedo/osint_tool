@@ -267,7 +267,7 @@ En `config/settings.py`:
 ### Búsqueda de persona
 
 👤 Buscando persona: usuario@ejemplo.com
-──────────────────────────────────────────────────
+
 📋 PERFILES ENCONTRADOS:
    ✅ Twitter: https://twitter.com/usuario
    ✅ LinkedIn: https://linkedin.com/in/usuario
@@ -284,7 +284,6 @@ En `config/settings.py`:
 ### Auditoría de privacidad
 
 🔒 Auditando privacidad de: ejemplo.com
-═══════════════════════════════════════════════════
 
 📋 WHOIS:
    📛 Registrante: Privacidad activada
