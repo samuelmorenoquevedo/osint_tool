@@ -94,9 +94,7 @@ Edita el archivo `config/settings.py` o usa variables de entorno:
 
 ### Menú Principal
 
-============================================================
 🔍 OSINT MULTI-TOOL v2.0 - Framework de Análisis OSINT
-============================================================
 
     1. 🛡️  Identificar y prevenir amenazas (Seguridad Nacional/Militar)
     2. 👤  Buscar y seguir personas
@@ -301,7 +299,6 @@ En `config/settings.py`:
    📅 Emitido para: ejemplo.com
    ⏰ Expira: 2025-12-31
 
-═══════════════════════════════════════════════════
 📊 RESUMEN DE AUDITORÍA:
    - Subdominios encontrados: 3
    - Vulnerabilidades: 0
@@ -310,7 +307,6 @@ En `config/settings.py`:
 ### Análisis sociológico
 
 📊 Realizando análisis sociológico/lingüístico...
-──────────────────────────────────────────────────
 
 🌐 ANÁLISIS DE IDIOMA:
    ✅ Idioma detectado: es (confianza: 0.95)
