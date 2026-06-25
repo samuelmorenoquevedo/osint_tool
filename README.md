@@ -413,8 +413,8 @@ pip install -r requirements.txt --upgrade
 
 ## 🗑️ Desinstalación
 ```bash
-`cd ..`
-`rm -rf osint-tool`
+cd ..
+rm -rf osint-tool
 ```
 ---
 
