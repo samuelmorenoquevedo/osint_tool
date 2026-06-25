@@ -36,33 +36,33 @@ OSINT Multi-Tool es un framework modular para realizar análisis de inteligencia
 ## 🚀 Instalación
 
 ### Clonar el repositorio
-
-`git clone https://github.com/tu-usuario/osint-tool.git`
-`cd osint-tool`
-
+```bash
+git clone https://github.com/tu-usuario/osint-tool.git
+cd osint-tool
+```
 ### Crear entorno virtual (recomendado)
-
-`python3 -m venv venv`
-`source venv/bin/activate`  # En Windows: venv\Scripts\activate
-
+```bash
+python3 -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
 ### Instalar dependencias
-
-`pip install -r requirements.txt`
-
+```bash
+pip install -r requirements.txt
+```
 ### Verificar instalación
-
-`python main.py`
-
+```bash
+python main.py
+```
 ---
 
 ## 📦 Dependencias
-
-`pip install requests beautifulsoup4 phonenumbers email-validator python-whois dnspython shodan tqdm textblob langdetect lxml`
-
+```bash
+pip install requests beautifulsoup4 phonenumbers email-validator python-whois dnspython shodan tqdm textblob langdetect lxml
+```
 O instala todas de una vez con:
-
-`pip install -r requirements.txt`
-
+```bash
+pip install -r requirements.txt
+```
 ---
 
 ## ⚙️ Configuración
@@ -70,28 +70,28 @@ O instala todas de una vez con:
 ### 1. Configurar API Keys (opcional)
 
 Edita el archivo `config/settings.py` o usa variables de entorno:
-
-`export SHODAN_API_KEY="tu_api_key_aqui"`
-`export VIRUSTOTAL_API_KEY="tu_api_key_aqui"`
-`export GOOGLE_CSE_API_KEY="tu_api_key_aqui"`
-`export HIBP_API_KEY="tu_api_key_aqui"`
-
+```bash
+export SHODAN_API_KEY="tu_api_key_aqui"
+export VIRUSTOTAL_API_KEY="tu_api_key_aqui"
+export GOOGLE_CSE_API_KEY="tu_api_key_aqui"
+export HIBP_API_KEY="tu_api_key_aqui"
+```
 ### 2. Estructura de directorios
-
-`mkdir -p data logs reports cache`
+```bash
+mkdir -p data logs reports cache
 
 ### 3. Verificar configuración
-
-`python -c "from config.settings import validate_config; print(validate_config())"`
-
+```bash
+python -c "from config.settings import validate_config; print(validate_config())"
+```
 ---
 
 ## 🎯 Uso
 
 ### Ejecutar la herramienta
-
-`python main.py`
-
+```bash
+python main.py
+```
 ### Menú Principal
 
 🔍 OSINT MULTI-TOOL v2.0 - Framework de Análisis OSINT
@@ -405,10 +405,10 @@ Cargar variables de entorno:
 ---
 
 ## 🔄 Actualización
-
-`git pull origin main`
-`pip install -r requirements.txt --upgrade`
-
+```bash
+git pull origin main
+pip install -r requirements.txt --upgrade
+```
 ---
 
 ## 🗑️ Desinstalación
