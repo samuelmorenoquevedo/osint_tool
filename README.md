@@ -412,10 +412,10 @@ Cargar variables de entorno:
 ---
 
 ## 🗑️ Desinstalación
-
+```bash
 `cd ..`
 `rm -rf osint-tool`
-
+```
 ---
 
 ## 🤝 Contribuciones
