@@ -466,10 +466,3 @@ MIT License - ver el archivo LICENSE para más detalles.
 
 ---
 
-<div align="center">
-
-**⭐ Si te gusta este proyecto, ¡no olvides darle una estrella! ⭐**
-
-Hecho con ❤️ para la comunidad OSINT
-
-</div>
